@@ -1,0 +1,27 @@
+.key-info {
+    display: inline;
+    width: 10vw;
+}
+
+.value-info {
+    display: inline;
+    width: 70vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 2vw;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 2vw;
+}
+
+.gender-pick {
+    display: flex;
+    flex-direction: column;
+}
