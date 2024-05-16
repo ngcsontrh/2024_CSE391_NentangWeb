@@ -1,76 +1,59 @@
-.key-info {
-    display: inline;
-    width: 10vw;
+nav{
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+body{
+    border: 5px solid rgb(234, 234, 234);
+    border-bottom-width: 10px;
+    
+    width: 700px;
 }
 
-.value-info {
-    display: inline;
-    width: 70vw;
+input{
+    margin-right: 20px;
 }
 
-input {
-    border: 0.14rem solid rgb(218, 218, 218);
-    border-top-color: black;
-}
-
-select {
-    padding: 7px;
-    border-radius: 5px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    padding: 1vh 2vw;
-}
-
-.info {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 1vh 2vw;
-}
-
-.pick {
-    display: flex;
-    flex-direction: column;
-}
-
-h4 {
-    margin: 0;
-}
-
-p {
-    margin: 0;
-}
-
-.human-check {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.form-footer {
+footer{
+    border: 0 solid black;
+    border-top-width:1px ;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 5px;
 }
 
-.form-footer button {
-    background-color: gray;
-    color: white;
-    font-weight: bold;
-    border: 1px solid;
-    padding: 7px;
+div{
+    font-size: 13px;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
-.hr {
-    border: 1px solid rgb(161, 161, 161);
-    width: 100%;
-    margin: 1vh;
+.label{
+    flex: 2;
+    margin-bottom: 4px;
 }
 
-h2 {
-    margin: 0;
-    margin-top: 2vh;
+.container{
+    display: flex;
+}
+
+.data{
+    flex: 8;
+    margin-bottom: 4px;
+}
+
+.select-report{
+    width: 100px;
+}
+
+.select-country{
+    width: 200px;
+}
+
+.left-btn{
+    margin-left: 2px;
+    margin-bottom: 3px;
+}
+
+.right-btn{
+    margin-right: 2px;
+    margin-bottom: 3px;
 }

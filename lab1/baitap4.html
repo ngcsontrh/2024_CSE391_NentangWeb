@@ -4,167 +4,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/baitap4.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/baitap4.css">
 </head>
 <body>
-    <form>
-        <section id="basic-info">
-            <h2>Basic Info</h2>
-            <hr>
-            <div class="info">
-                <h4 class="key-info">Employee ID</h4>
-                <p class="value-info">9</p>
-            </div>
-            <div class="info">
-                <h4 class="key-info">Last Name</h4>
-                <p class="value-info">Dodsworth</p>
-            </div>
-            <div class="info">
-                <h4 class="key-info">First Name</h4>
-                <input type="text" class="value-info">
-            </div>
-            <div class="info">
-                <h4 class="key-info">Gender</h4>
-                <div class="pick">
-                    <div>
-                        <input type="radio" name="gender" id="male">
-                        <label for="male">Male</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="gender" id="female">
-                        <label for="female">Female</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="gender" id="xxx">
-                        <label for="xxx">XXX</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="gender" id="zzz">
-                        <label for="male">ZZZ</label>
-                    </div>
-                </div>
-            </div>
-            <div class="info">
-                <h4 class="key-info">Title</h4>
-                <input type="text" class="value-info">
-            </div>
-            <div class="info">
-                <h4 class="key-info">Suffix</h4>
-                <input type="text" class="value-info">
-            </div>
-            <div class="info">
-                <h4 class="key-info">BirthDate</h4>
-                <input type="text" class="value-info">
-                <b style="margin-left: 10px;">(?)</b>
-            </div>
-            <div class="info">
-                <h4 class="key-info">HireDate</h4>
-                <input type="text" class="value-info">
-            </div>
-            <div class="info">
-                <h4 class="key-info">SSN # (if applicable)</h4>
-                <input type="text" class="value-info">
-            </div>
-            <div class="info">
-                <h4 class="key-info">Report To</h4>
-                <select>
-                    <option value="Buchanan">Buchanan</option>
-                    <option value="Meh">Meh</option>
-                </select>
-            </div>
-        </section>
-        
-        <section id="contact-info">
-            <h2>Contact Info</h2>
-            <hr>
-            <div class="info">
-                <h4 class="key-info">Email</h4>
-                <input type="text" class="value-info" placeholder="name@example.com">
-            </div>
-            <div class="info">
-                <h4 class="key-info">Address</h4>
-                <input type="text" class="value-info">
-            </div>
-            <div class="info">
-                <h4 class="key-info">City</h4>
-                <input type="text" class="value-info">
-            </div>
-            <div class="info">
-                <h4 class="key-info">Region</h4>
-                <input type="text" class="value-info">
-            </div>
-            <div class="info">
-                <h4 class="key-info">Postal Code</h4>
-                <input type="text" class="value-info">
-            </div>
-            <div class="info">
-                <h4 class="key-info">Country</h4>
-                <select>
-                    <option value="Russian">Russian Rederation</option>
-                    <option value="VietNam">VietNam</option>
-                </select>
-            </div>
-            <div class="info">
-                <h4 class="key-info">US Home Phone</h4>
-                <input type="tel" class="value-info">
-            </div>
-            <div class="info">
-                <h4 class="key-info">Photo</h4>
-                <input type="text" class="value-info">
-            </div>
-        </section>
+    <nav>
+        Basic Info
+    </nav>
 
-        <section id="optional-info">
-            <h2>Optional Info</h2>
-            <hr>
-            <div class="info">
-                <h4 class="key-info">Notes</h4>
-                <textarea class="value-info" rows="7"></textarea>
-            </div>
-            <div class="info">
-                <h4 class="key-info">Prefered Shift</h4>
-                <div class="pick">
-                    <div>
-                        <input type="checkbox" id="regular">
-                        <label for="regular">Regular</label>
-                    </div>
+    <div class="container">
+        <div class = "label">Employ ID</div>
+        <div class="data">9</div>
+    </div>
 
-                    <div>
-                        <input type="checkbox" id="grary">
-                        <label for="gravy">Gravy Yard</label>
-                    </div>
-                </div>
-            </div>
-            <div class="info">
-                <h4 class="key-info">Active</h4>
-                <input type="checkbox">
-            </div>
-            <div class="info">
-                <h4 class="key-info">Are you human?</h4>
-                <div>
-                    <b style="font-size: 2rem; color: gray;">TIDAWD</b>
-                    <div class="human-check">
-                        <b>Click to change</b>
-                        <input type="text" class="value-info">
-                    </div>
-                </div>
-            </div>
-        </section>
+    <div class="container">
+        <div class="label">Last name</div>
+        <div class="data">Dodsworth</div>
+    </div>
 
-        <div class="hr"></div>
+    <div class="container">
+        <div class="label">First Name</div>
+        <input class="data" value="Anne" type="text">
+    </div>
 
-        <div class="form-footer">
-            <nav>
-                <i class="bi bi-caret-left-square-fill"></i>
-                <i class="bi bi-caret-right-square-fill"></i>
-            </nav>
+    <div class="container">
+        <div class="label">Gender</div>
+        <div class="data">
             <div>
-                <button type="submit">Submit</button>
-                <button type="reset">Cancel</button>
+                <input name="Gender" type="radio" value="1">
+                <label for="1">Male</label>
+            </div>
+
+            <div>
+                <input type="radio" name="Gender" value="2">
+                <label for="2">Female</label>
+            </div>
+
+            <div>
+                <input type="radio" name="Gender" value="3">
+                <label for="3">XXX</label>
+            </div>  
+
+            <div>
+                <input type="radio" value="4" name="Gender">
+                <label for="4">ZZZ</label> 
+            </div>      
+        </div>
+    </div>
+    <div class="container">
+        <div class="label">Title</div>
+        <input class="data" value="Sales Representative" type="text">
+    </div>
+    <div class="container">
+        <div class="label">Suffix</div>
+        <input class="data" value="Ms." type="text">
+    </div>
+    <div class="container">
+        <div class="label">BirthDate</div>
+        <input type="text" value="1969-07-02 00:00:00" class="data">
+    </div>
+    <div class="container">
+        <div class="label">HireDate</div>
+        <input type="text" value="1994-11-15 00:00:00" class="data">
+    </div>
+    <div class="container">
+        <div class="label">SSN #(if applicable)</div>
+        <input class="data"  type="text">
+    </div>
+    <div class="container" style="margin-bottom: 20px;">
+        <div class="label">Reports to</div>
+        <div class="data">
+            <select name="sl1" class="select-report">
+                <option value="1">Buchanna</option>
+            </select>
+        </div>
+    </div>
+
+    <nav>
+        Contact Info
+    </nav>
+    <div class="container">
+        <div class="label">Email</div>
+        <input class="data" placeholder="name@example.com" type="text">
+    </div>
+
+    <div class="container">
+        <div class="label">Address</div>
+        <input class="data" value="7 Houndstooth Rd." type="text">
+    </div>
+
+    <div class="container">
+        <div class="label">Region</div>
+        <input class="data" value="" type="text">
+    </div>
+
+    <div class="container">
+        <div class="label">Postal Code</div>
+        <input class="data" value="WG2 7LT" type="text">
+    </div>
+
+    <div class="container" style="margin-bottom: 20px;">
+        <div class="label">Country</div>
+        <div class="data">
+            <select name="sl1" class="select-country">
+                <option value="1">Russian Federation</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="label">US Home Phone</div>
+        <input class="data" value="(234)234-2342" type="text">
+    </div>
+
+    <div class="container" style="margin-bottom: 20px;">
+        <div class="label">Photo</div>
+        <input class="data" value="EmpID9.bmp" type="text">
+    </div>
+
+    <nav>
+        Optional Info
+    </nav>
+
+    <div class="container">
+        <div class="label" style="align-self: center;">Notes</div>
+        <img src="asset/image/Screenshot 2024-05-09 233301.png" alt="">
+    </div>  
+
+    <div class="container" style="margin-bottom: 20px;">
+        <div class="label">Photo</div>
+        <div class="data">
+            <div>
+                <input type="checkbox" name="cb" value="Regular">
+                <label for="Regular">Regular</label>
+            </div>
+            <div>
+                <input type="checkbox" name="cb" value="Gravy Yard">
+                <label for="Gravy Yard">Gravy Yard</label>
             </div>
         </div>
-        <span>*required</span>
-    </form>
+    </div>
+
+    <div class="container" style="margin-bottom: 20px;">
+        <div class="label">Active</div>
+        <div class="data">
+            <input class="data" type="checkbox">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="label">Are you human?</div>
+        <div class="data">
+            <div><img src="asset/image/tlu.png" alt=""></div>
+            <div style="text-align: center;">Click to change</div>
+            <input style="width: 95%;" type="text">
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <button class="left-btn">&lt</button>
+            <button class="left-btn">&gt</button>
+        </div>
+        <div class="container">
+            <button class="right-btn">Submit</button>
+            <button class="right-btn">Cancel</button>
+        </div>
+    </footer>
+
+    <div style="margin: 5px;">
+        *required
+    </div>
 </body>
 </html>
