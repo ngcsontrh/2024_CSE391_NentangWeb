@@ -72,3 +72,9 @@ tr{
 .grourp-btn i{
     padding: 5px;
 }
+
+.item>i {
+    display: inline-block;
+    margin-right: 9px;
+    margin-left: 9px;
+}
