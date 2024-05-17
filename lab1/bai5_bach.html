@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/bootstrap-5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap-5.3.3/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="icons/bootstrap-icons/font/bootstrap-icons.css">
+  <title>Document</title>
+  <style>
+    th{
+      border-top: 0.8px solid rgb(222, 226, 230);
+      height: 40px;
+    }
+
+    table{
+      margin-left: 15px;
+      margin-right: 15px;
+      padding-right: 15px ;
+    }
+
+    body{
+      border: 1px solid blue;
+      padding: 5px;
+    }
+
+    .height{
+      height: 40px;
+    }
+
+    .dlt-btn{
+      background-color: red;
+      color: white;
+      height: 33px;
+      text-align: center;
+      font-size: 15px;
+      padding: 3px 10px;
+    }
+
+    .add-btn{
+      padding: 3px 10px;
+      font-size: 15px;
+      text-align: center;
+      color: white;
+      height: 33px;
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">TLU</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">TRANG CHỦ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">QUẢN LÝ NHÂN VIÊN</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input style="width: 250px;" class="form-control me-2 " type="search" placeholder="Nhập nội dung tìm kiếm" aria-label="Search">
+          <button class="btn btn-outline-success fw-5" type="submit">Tìm</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div>
+    <div style="background-color: rgb(191, 189, 189); height: 30px; opacity: 0.5;"></div>
+    <nav class="navbar bg-body-tertiary p-0 mb-1">
+      <div class="container-fluid" style="background-color: rgb(86, 86, 152);
+                                          height: 50px;">
+        <span class="navbar-brand mb-0 h1" style="color: white;">QUẢN LÝ NHÂN VIÊN</span>
+        <div>
+          <button class="dlt-btn navbar-brand mb-0 h1"><i class="bi bi-dash-circle" ></i> Xoá</button>
+          <button class="navbar-brand mb-0 h1 add-btn"><i class="bi bi-plus-circle"></i> Thêm nhân viên</button>
+        </div>  
+      </div>
+    </nav>
+    <div>
+      <table class="table table-sm">
+        <tr>
+          <th class="">
+            <input class="ms-3" type="checkbox">
+          </th>
+          <th>Họ và tên</th>
+          <th>Thư điện tử</th>
+          <th>Địa chỉ</th>
+          <th>Số điện thoại</th>
+          <th>Hành động</th>
+        </tr>
+
+        <tr class="height text-align-center">
+          <td>
+            <input class="ms-3" type="checkbox">
+          </td>
+          <td>Nguyễn Văn A</td>
+          <td>nguyenvana@example.com</td>
+          <td>Hà Nội, Việt Nam</td>
+          <td>0123456789</td>
+          <td>
+            <div class="d-flex ">
+              <i style="color: yellow;" class="me-4 bi bi-pencil-fill "></i>
+              <i style="color: red;" class="bi bi-trash-fill "></i>
+            </div>
+          </td>
+        </tr>
+
+        <tr class="height text-align-center">
+          <td>
+            <input class="ms-3" type="checkbox">
+          </td>
+          <td>Nguyễn Văn A</td>
+          <td>nguyenvana@example.com</td>
+          <td>Hà Nội, Việt Nam</td>
+          <td>0123456789</td>
+          <td>
+            <div class="d-flex ">
+              <i style="color: yellow;" class="me-4 bi bi-pencil-fill "></i>
+              <i style="color: red;" class="bi bi-trash-fill "></i>
+            </div>
+          </td>
+        </tr>
+        
+        <tr class="height text-align-center">
+          <td>
+            <input class="ms-3" type="checkbox">
+          </td>
+          <td>Nguyễn Văn A</td>
+          <td>nguyenvana@example.com</td>
+          <td>Hà Nội, Việt Nam</td>
+          <td>0123456789</td>
+          <td>
+            <div class="d-flex ">
+              <i style="color: yellow;" class="me-4 bi bi-pencil-fill "></i>
+              <i style="color: red;" class="bi bi-trash-fill "></i>
+            </div>
+          </td>
+        </tr>
+
+        <tr class="height text-align-center">
+          <td>
+            <input class="ms-3" type="checkbox">
+          </td>
+          <td>Nguyễn Văn A</td>
+          <td>nguyenvana@example.com</td>
+          <td>Hà Nội, Việt Nam</td>
+          <td>0123456789</td>
+          <td>
+            <div class="d-flex ">
+              <i style="color: yellow;" class="me-4 bi bi-pencil-fill "></i>
+              <i style="color: red;" class="bi bi-trash-fill "></i>
+            </div>
+          </td>
+        </tr>
+
+        <tr class="height text-align-center">
+          <td>
+            <input class="ms-3" type="checkbox">
+          </td>
+          <td>Nguyễn Văn A</td>
+          <td>nguyenvana@example.com</td>
+          <td>Hà Nội, Việt Nam</td>
+          <td>0123456789</td>
+          <td>
+            <div class="d-flex ">
+              <i style="color: yellow;" class="me-4 bi bi-pencil-fill "></i>
+              <i style="color: red;" class="bi bi-trash-fill "></i>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <div style="font-size: 13px;" class="d-flex justify-content-between ps-3">
+        <div style="color: rgb(114, 114, 169);">Hiển thị <b>5/25</b> bản ghi</div>
+        <div class="d-flex">
+            <div class="p-2">Trước</div>
+            <div class="p-2">1</div>
+            <div class="p-2">2</div>
+            <div style="background-color: aqua; width: 40px;" class="p-2 ps-3">3</div>
+            <div class="p-2">4</div>
+            <div class="p-2">5</div>
+            <div class="p-2 me-4">Sau</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
