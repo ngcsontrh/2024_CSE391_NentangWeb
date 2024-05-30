@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>Học web chuẩn</title>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <style>
       * {
         margin: 0;
@@ -24,19 +28,23 @@
     <script>
       $(function () {
         /* Viết code ở đây ↓ */
+        $(".title").click(function() {
+          $(".box").slideUp(100);
+          $(this).next(".box").slideToggle(100);
+        });
       });
     </script>
   </head>
   <body>
-    <h3>Title 01</h3>
+    <h3 class="title">Title 01</h3>
     <div class="box">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </div>
-    <h3>Title 02</h3>
+    <h3 class="title">Title 02</h3>
     <div class="box">
       Sed porttitor turpis risus, vitae sodales neque vulputate ut.
     </div>
-    <h3>Title 03</h3>
+    <h3 class="title">Title 03</h3>
     <div class="box">In suscipit nec velit sit amet convallis. Integer.</div>
   </body>
 </html>
